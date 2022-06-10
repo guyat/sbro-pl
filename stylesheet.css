@@ -1,0 +1,110 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+  width:1200px;
+  height:673px;
+  background-image: url(sbro.jpg);
+  background-size: cover;
+}
+
+li {
+  list-style: none;
+  float:left;
+  padding:24px 10px;
+
+}
+
+.list-link{
+  color:white;
+}
+
+a{
+  text-decoration:none;
+}
+
+header{
+  height:70px;
+  width:1536px;
+  background-color:mediumturquoise;
+}
+
+.header-list a{
+  color:white;
+}
+
+.container{
+  padding-left:10px;
+  margin: 0 auto;
+}
+
+.caution{
+  color:red;
+}
+
+.header-logo{
+  height:100%;
+  float:left;
+}
+
+.top-wrapper{
+  margin-top:20px;
+
+}
+
+.top-txt{
+  font-size:18px;
+  font-weight: 900;
+
+}
+
+.top-txton{
+  color:blueviolet;
+  font-weight: bolder;
+}
+
+.top-under{
+  margin-top:30px;
+  font-size:30px;
+  font-weight: bold;
+  color: blueviolet;
+  
+}
+
+
+footer{
+  margin-top:245px;
+  width:1536px;
+  height:70px;
+  background-color:rgb(83, 87, 136);
+  
+}
+
+.link-title{
+  padding-top:24px;
+  padding-right:10px;
+  color:aquamarine;
+  float:left;
+  font-weight:bold;
+}
+
+.footer-link li{
+  display: block;
+  padding-left:5px;
+
+}
+
+.footer-link a{
+  color:white;
+  
+}
+
+
+
+
