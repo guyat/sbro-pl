@@ -1,3 +1,91 @@
+/* テーブルタグのCSS */
+.plt{
+   display: inline-block;
+   text-align: center;
+   margin:20px 200px 20px 200px;
+ }
+
+
+ 
+ table{
+   height: 100%;
+   width:100%;
+ }
+ 
+ table , td, th {
+     border: 2px solid #3d3a3a;
+ 
+ }
+ td, th {
+     padding: 3px;
+     width: 30px;
+     height: 25px;
+ }
+ th {
+     background: #f0e6cc;
+ }
+ .even {
+     background: #fbf8f0;
+ }
+ .odd {
+     background: #fefcf9;
+ }
+ 
+ .pname{
+   background-color: rgb(61, 57, 187);
+   font-weight: bold;
+   color:rgb(248, 248, 14);
+   font-size:19px;
+ }
+ 
+ .mchara{
+   
+   color:rgb(255, 255, 255);
+   background-color: rgb(14, 111, 118);
+ }
+ 
+ .twitterpage{
+   background-color: rgb(79, 172, 205);
+   color:blue;
+ }
+
+ .twitterpage a{
+  color:blue;
+  text-decoration:underline;
+
+ }
+ 
+ .bombmatep{
+   background-color: #858585;
+   color:blue;
+ }
+
+ .bombmatep a{
+  color: blue;
+  text-decoration:underline;
+ }
+ 
+ .youtubech{
+   background-color: rgb(251, 117, 139);
+   color:blue;
+ }
+
+ .youtubech a{
+  color: blue;
+  text-decoration:underline;
+ }
+ 
+ .introduction{
+   text-align: left;
+   background-color: rgb(1, 58, 138);
+   color:white;
+
+ 
+ }
+
+
+/* テーブルタグのCSS */
+
 /* CSSのリセット（消さないでください） */
 html, body,
 ul, ol, li,
@@ -6,105 +94,203 @@ h1, h2, h3, h4, h5, h6, p, div {
   padding: 0;
 }
 
+
+* {
+   box-sizing: border-box;
+}
+
 body {
-  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
-  width:1200px;
-  height:673px;
-  background-image: url(sbro.jpg);
-  background-size: cover;
+   margin: 0;
+   padding: 0;
+   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   /* background-color: #e6e6e6; */
+   background-image:  url(sbro.jpg);
+   background-size: 100% 100%;
+   background-attachment:fixed;
 }
 
-li {
-  list-style: none;
-  float:left;
-  padding:24px 10px;
+header {  
+   padding: 20px 4% 10px;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background-color:rgb(142, 142, 142);
+   display: flex;
+   align-items: center;
 
 }
 
-.list-link{
-  color:white;
+h1 {
+   margin: 0; padding: 0;
+
 }
 
-a{
-  text-decoration:none;
+a {	
+   text-decoration: none;
+   color: #fff;
 }
 
-header{
-  height:70px;
-  width:1536px;
-  background-color:mediumturquoise;
+.logo-top{
+   color:rgb(0, 0, 0);
 }
 
-.header-list a{
-  color:white;
+.logo-top:hover{
+   background-color: silver;
 }
 
-.container{
-  padding-left:10px;
-  margin: 0 auto;
+.headerul{
+   list-style: none;
+   margin: 0;
+   display: flex;
+
+}
+
+.header-link{
+   font-size:16px;
+}
+
+.header-link:hover{
+   background-color: black;
+}
+
+li{
+   margin: 0 0 0 15px;
+   font-size: 14px;
+}
+
+
+footer {
+   padding: 15px 4% 10px;
+   margin-top: auto;
+
+   bottom: 0;
+   width: 100%;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+   background-color: darkslateblue;
+}
+
+.footerul{
+   list-style: none;
+   margin: 0;
+
+}
+
+.footer-title{
+   font-weight: normal;
+   color:aqua;
+   font-size:20px;
+}
+
+.footer-link{
+   font-size:18px;
+}
+
+.footer-link:hover{
+   background-color: black;
 }
 
 .caution{
-  color:red;
+   color:rgb(148, 4, 28);
+   font-weight: bold;
 }
 
-.header-logo{
-  height:100%;
-  float:left;
+
+
+.container {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
 }
 
-.top-wrapper{
-  margin-top:20px;
+.takasa{
+  padding-top:100px;
+}
 
+
+.main{
+  padding-top:100px;
+  margin-left:20px;
 }
 
 .top-txt{
-  font-size:18px;
-  font-weight: 900;
+   font-size:18px;
+   font-weight: 900;
+ }
 
-}
+ .top-txton{
+   color:blueviolet;
+   font-weight: bolder;
+ }
 
-.top-txton{
-  color:blueviolet;
-  font-weight: bolder;
-}
+ .top-under{
+   margin-top:10px;
+   font-size:30px;
+   font-weight: bold;
+   color: blueviolet;
+   
+ }
 
-.top-under{
-  margin-top:30px;
-  font-size:30px;
-  font-weight: bold;
-  color: blueviolet;
-  
-}
+ .page-padding{
+   padding-top:100px;
+   /* margin-left:20px; */
+ } 
 
+ .upd-txt p{
+   margin:10px 20px;
+   border-bottom:3px solid rgb(109, 108, 108);
+   color: rgb(91, 94, 55);
+   font-weight: bold;
+   font-size:16px;
+ }
 
-footer{
-  margin-top:245px;
-  width:1536px;
-  height:70px;
-  background-color:rgb(83, 87, 136);
-  
-}
+ .pov-content{
+   margin-left:20px;
+ }
 
-.link-title{
-  padding-top:24px;
-  padding-right:10px;
-  color:aquamarine;
-  float:left;
-  font-weight:bold;
-}
+ .povpre{
+   width:50%;
+   height:50%;
+ }
+ 
+ .pretxt{
+   color:rgb(0, 0, 0);
+   font-size:16px;
+   font-weight: bold;
+ }
 
-.footer-link li{
-  display: block;
-  padding-left:5px;
+ .permission{
+   color:red;
+ }
 
-}
+ .caution-msg{
+   margin-left:20px;
+ }
 
-.footer-link a{
-  color:white;
-  
-}
+ .caution-msg p{
+   font-weight: bold;
+   font-size:18px;
+ }
+ 
+ .please{
+   color:red;
+ }
+ 
+ .zoom{
+   color:rgb(255, 102, 0);
+   font-size: 28px;
+ }
 
+ .syllavary{
+   text-align: center;
+ }
 
+ .syllavary a{
+   text-decoration:underline;
+   color:blue;
+ }
 
-
+ .syllavary a:hover{
+   background-color: gold;
+ }
