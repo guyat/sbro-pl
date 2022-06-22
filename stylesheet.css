@@ -117,6 +117,7 @@ header {
    background-color:rgb(142, 142, 142);
    display: flex;
    align-items: center;
+   z-index: 1;
 
 }
 
@@ -297,6 +298,11 @@ footer {
 
 .pcch{
   color:red;
-  font-size:24px;
+  font-size:20px;
   font-weight: bold;
+}
+
+.fa{
+  padding-right:3px;
+  z-index: 0;
 }
