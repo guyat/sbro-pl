@@ -241,7 +241,7 @@ footer {
  .upd-txt p{
    margin:10px 20px;
    border-bottom:3px solid rgb(109, 108, 108);
-   color: rgb(91, 94, 55);
+   color: rgb(75, 79, 35);
    font-weight: bold;
    font-size:16px;
  }
@@ -323,7 +323,7 @@ footer {
 }
 
 .sbr2link-txt{
-  color:green;
+  color:rgb(12, 32, 216);
 }
 
 .sbr2link{
@@ -332,4 +332,19 @@ footer {
 
 .sbr2link:hover{
   background-color: aquamarine;
+}
+
+summary{
+  font-weight: bold;
+  cursor: pointer;
+  margin-left:10px;
+
+}
+
+summary:hover{
+  background-color: rgb(216, 243, 255);
+}
+
+details[open] summary {
+  background-color: rgb(130, 254, 175);
 }
