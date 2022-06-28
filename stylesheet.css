@@ -322,3 +322,14 @@ footer {
 
 }
 
+.sbr2link-txt{
+  color:green;
+}
+
+.sbr2link{
+  color:purple;
+}
+
+.sbr2link:hover{
+  background-color: aquamarine;
+}
